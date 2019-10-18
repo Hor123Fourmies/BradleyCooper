@@ -15,15 +15,17 @@ body
 {
     float: left;
     width: 40%;
-    height: 516px;
-    border: silver 10px double;
-    border-right-color: none;
+    height: auto;
+    border-top: silver 10px double;
+    border-bottom: silver 10px double;
+    border-left: silver 10px double;
+    border-right: silver 10px double;
 }
 
 
 #icone1
 {
-    margin-top: 5%;
+    margin-top: 4%;
     padding-left: 30%;
     float: left;
     font-size: 20px;
@@ -32,11 +34,16 @@ body
 
 #icone2
 {
-    margin-top: 5%;
-    padding-left: 10%;
+    margin-top: 4%;
+    padding-left: 20%;
     float: left;
     font-size: 20px;
 
+}
+
+h3
+{
+    padding-top: 15px;
 }
 
 #BradleyCooper
@@ -45,13 +52,12 @@ body
     height: 172px;
     background: limegreen;
     float: left;
-    text-indent: 15px;
-
+    text-indent: 20px;
 }
 
 span
 {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 
@@ -83,7 +89,8 @@ span
 }
 
 
-#Education{
+#Education
+{
     width: 33.3%;
     height: 102px;
     background: coral;
@@ -137,32 +144,130 @@ span
 #PartieDroite
 {
     float: left;
-    width: 25%;
+    width: 24.5%;
     height: 516px;
+    border-top: silver 10px double;
+    border-bottom: silver 10px double;
+    border-left: silver 10px double;
+    border-right: silver 10px double;
+}
+
+img
+{
 
 }
 
-img{
-    border: silver 10px double;
-    border-left: none;
-}
 
-
-/*Media query pour la largeur des iPads*/
+/*Media query pour la largeur des iPads - Format Portrait*/
 @media (max-width: 1138px)
 {
+    body
+    {
+        height: auto;
+        margin-left: 0%;
+        margin-top: 0%;
+        background: #a41d2c;
+    }
+
+
     #PartieGauche
     {
         width: 100%;
         padding: 0px;
+        height: auto;
+        border-top: 2px solid #a41d2c;
+        border-left: 2px solid #a41d2c;
+        border-right: 2px solid #a41d2c;
+        border-bottom: 2px solid #a41d2c;
     }
+
+
+
+    #BradleyCooper
+    {
+        height: 196px;
+        border-bottom: 4px solid #a41d2c;
+        width: 66%;
+        border-right: 4px solid #a41d2c;
+    }
+
+
+
+    #Profile
+    {
+        height: 126px;
+        padding-top: 70px;
+        border-bottom: 4px solid #a41d2c;
+    }
+
+
+    #Experience
+    {
+        height: 126px;
+        padding-top: 70px;
+        border-bottom: 4px solid #a41d2c;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+    }
+
+
+    #Education
+    {
+        height: 126px;
+        padding-top: 70px;
+        border-bottom: 4px solid #a41d2c;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+    }
+
+    #Blog
+    {
+        height: 126px;
+        padding-top: 70px;
+        border-bottom: 4px solid #a41d2c;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+    }
+
+
+    #SocialMenu
+    {
+        height: 130px;
+        padding-top: 70px;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+        border-bottom: 4px solid #a41d2c;
+    }
+
+    #Contact
+    {
+        height: 130px;
+        padding-top: 70px;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+        border-bottom: 4px solid #a41d2c;
+    }
+
+    #PortFolio
+    {
+        height: 130px;
+        padding-top: 70px;
+        width: 32.8%;
+        border-right: 4px solid #a41d2c;
+        border-bottom: 4px solid #a41d2c;
+    }
+
 
     #PartieDroite
     {
-        width: 100%;
+        width: 98%;
         padding: 0px;
+        text-align: center;
+        padding-bottom: 29%;
+        padding-top: 12%;
     }
 }
+
 
 /*Media query pour la largeur des smartphones*/
 @media (max-width: 812px)
@@ -171,6 +276,11 @@ img{
     {
         width: 100%;
         height: auto;
+        background: #a41d2c;
+        border-top: 2px solid #a41d2c;
+        border-left: 2px solid #a41d2c;
+        border-right: 2px solid #a41d2c;
+        border-bottom:  2px solid #a41d2c;
     }
 
     #PartieDroite
@@ -187,7 +297,7 @@ img{
 
     #BradleyCooper
     {
-        width: 100%;
+        width: 99%;
         font-size: 12.2px;
         height: 140px;
     }
@@ -195,22 +305,24 @@ img{
     #icone1
     {
         padding-left: 20%;
+        margin-top: 1%;
     }
 
     #icone2
     {
         padding-left: 20%;
+        margin-top: 1%;
     }
 
     .icones
     {
-        margin-top: 5%;
+        margin-top: 2%;
     }
 
 
     #Profile
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
@@ -218,28 +330,28 @@ img{
 
     #Experience
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
 
     #Education
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
 
     #Blog
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
 
     #SocialMenu
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
@@ -247,14 +359,14 @@ img{
 
     #Contact
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
 
     #PortFolio
     {
-        width: 100%;
+        width: 99%;
         height: 80px;
         padding-top: 15px;
     }
@@ -265,7 +377,8 @@ img{
 
     #PartieDroite
     {
-        width: 100%;
+        width: 99.5%;
+        border: none;
     }
 
 }
