@@ -55,6 +55,12 @@ h3
     text-indent: 20px;
 }
 
+#BradleyCooper:hover
+{
+    background: lightblue;
+    color: black;
+}
+
 span
 {
     padding-left: 20px;
@@ -69,7 +75,13 @@ span
     float: left;
     text-align: center;
     padding-top: 70px;
+}
 
+#Profile:hover
+{
+    background: crimson;
+    color: darkblue;
+    text-transform: lowercase;
 }
 
 .icones
@@ -88,6 +100,12 @@ span
     padding-top: 70px;
 }
 
+#Experience:hover
+{
+    border-radius: 4em;
+    background: rosybrown;
+}
+
 
 #Education
 {
@@ -97,6 +115,13 @@ span
     float: left;
     text-align: center;
     padding-top: 70px;
+}
+
+#Education:hover
+{
+    transform: rotate(360deg);
+    transition: transform 2.5s;
+    box-shadow: 12px 10px 4px white;
 }
 
 #Blog
@@ -109,6 +134,13 @@ span
     padding-top: 70px;
 }
 
+#Blog:hover
+{
+    background: lightblue;
+    color: black;
+}
+
+
 
 #SocialMenu
 {
@@ -118,6 +150,13 @@ span
     float: left;
     text-align: center;
     padding-top: 70px;
+}
+
+#SocialMenu:hover
+{
+    background: crimson;
+    color: darkblue;
+    text-transform: lowercase;
 }
 
 #Contact
@@ -130,6 +169,13 @@ span
     padding-top: 70px;
 }
 
+#Contact:hover
+{
+    border-radius: 4em;
+    background: rosybrown;
+}
+
+
 #PortFolio
 {
     width: 33.4%;
@@ -140,6 +186,12 @@ span
     padding-top: 70px;
 }
 
+#PortFolio:hover
+{
+    background: crimson;
+    color: darkblue;
+    text-transform: lowercase;
+}
 
 #PartieDroite
 {
@@ -152,10 +204,16 @@ span
     border-right: silver 10px double;
 }
 
-img
-{
 
+img {
+    opacity: 1;
 }
+
+img:hover {
+    opacity: .5;
+    transition: opacity 1s;
+}
+
 
 
 /*Media query pour la largeur des iPads - Format Portrait*/
